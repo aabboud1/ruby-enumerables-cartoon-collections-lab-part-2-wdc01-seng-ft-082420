@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.any? |element| do
     if element == valid_calls
       puts valid_calls[0]
-    else
+    end
   end
   
   
